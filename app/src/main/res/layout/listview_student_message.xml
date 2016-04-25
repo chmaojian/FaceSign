@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/color_card_margin_vertical"
+    android:paddingLeft="@dimen/color_card_margin_horizontal"
+    android:paddingRight="@dimen/color_card_margin_horizontal"
+    android:paddingTop="@dimen/color_card_margin_vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="@dimen/color_card_corner_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/top_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/student_message_text_padding_left"
+                android:paddingLeft="@dimen/student_message_text_padding_left"
+                android:paddingRight="@dimen/student_message_text_padding_left"
+                android:paddingStart="@dimen/student_message_text_padding_left"
+                android:paddingTop="@dimen/student_message_text_padding_top">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/file_share_icon_width"
+                    android:layout_height="@dimen/file_share_icon_width"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_profile" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/student_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="middle"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/request_to_join_your_course" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/course_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_info"
+                android:orientation="horizontal">
+                <!--select one style below to use -->
+                <!--style="@style/Widget.AppCompat.Button"-->
+                <!--style="@style/Widget.AppCompat.Button.Colored"-->
+                <!--style="@style/Widget.AppCompat.Button.Borderless"-->
+                <!--style="@style/Widget.AppCompat.Button.Borderless.Colored"-->
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/action_accept"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_accept"
+                    android:textColor="@color/colorPrimary" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/action_refuse"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_refuse" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

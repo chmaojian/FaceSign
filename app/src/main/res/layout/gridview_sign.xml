@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_activated"
+    android:padding="@dimen/sign_grid_view_item_padding"
+    android:orientation="vertical" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/appImageView"
+        android:layout_width="@dimen/sign_image_view_size"
+        android:layout_height="@dimen/sign_image_view_size"
+        android:src="@drawable/ic_profile"
+        android:layout_gravity="center" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/sign_student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/sign_student_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</LinearLayout>

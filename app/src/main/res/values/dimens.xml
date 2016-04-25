@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="navigation_drawer_width">260dp</dimen>
+    <dimen name="navigation_image_width">60dp</dimen>
+    <dimen name="navigation_exit_width">25dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">6dp</dimen>
+    <!--<dimen name="status_bar_height">0dp</dimen>-->
+
+    <!--home-->
+    <dimen name="home_image_view_size">46dp</dimen>
+    <dimen name="file_share_icon_width">60dp</dimen>
+    <dimen name="student_message_text_padding_left">8dp</dimen>
+    <dimen name="student_message_text_padding_top">8dp</dimen>
+    <!--home-->
+
+    <!--card-->
+    <dimen name="color_card_corner_radius">2dp</dimen>
+    <dimen name="color_card_padding_vertical">15dp</dimen>
+    <dimen name="color_card_padding_horizontal">8dp</dimen>
+    <dimen name="color_card_margin_horizontal">4dp</dimen>
+    <dimen name="color_card_margin_vertical">4dp</dimen>
+    <!--card-->
+    <!--sign list-->
+    <dimen name="sign_list_item_padding">8dp</dimen>
+    <dimen name="score_color_image_padding">8dp</dimen>
+    <dimen name="score_text_padding">16dp</dimen>
+    <!--sign list-->
+
+    <!--sign activity-->
+    <dimen name="sign_image_view_size">46dp</dimen>
+    <dimen name="sign_grid_view_item_padding">4dp</dimen>
+    <!--sign activity-->
+</resources>

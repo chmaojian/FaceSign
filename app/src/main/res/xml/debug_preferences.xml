@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/preference_item">
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="Debug设置">
+
+        <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+            android:defaultValue="@string/base_host_address_default_value"
+            android:dialogTitle="@string/base_host_address_setting_dialog_title"
+            android:inputType="textPersonName"
+            android:key="base_host"
+            android:persistent="true"
+            android:summary="@string/base_host_address_setting_summary"
+            android:title="@string/base_host_address_setting_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

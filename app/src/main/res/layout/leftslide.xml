@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/nav_header_main" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/left_menu_item"
+                android:id="@+id/menu_home">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/menu_home" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:text="@string/left_slide_menu_home"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/left_menu_item"
+                android:id="@+id/menu_sign">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/menu_management" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:text="@string/left_slide_menu_sign"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/left_menu_item"
+                android:id="@+id/menu_students">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/menu_collect" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:text="@string/left_slide_menu_students"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/left_menu_item"
+                android:id="@+id/menu_course">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/menu_feature" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:text="@string/left_slide_menu_course"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/left_menu_item"
+                android:id="@+id/menu_setting">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/menu_setting" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:text="@string/left_slide_menu_setting"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Face</string>
+    <string name="home_title">Face</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="image">image</string>
+
+    <!--left Slide-->
+    <string name="action_settings">设置</string>
+    <string name="mail">邮箱</string>
+    <string name="left_slide_menu_home">首页</string>
+    <string name="left_slide_menu_sign">快速签到</string>
+    <string name="left_slide_menu_students">学生管理</string>
+    <string name="left_slide_menu_course">课程管理</string>
+    <string name="left_slide_menu_setting">设置</string>
+    <string name="user_name">用户中心</string>
+    <string name="Main">首页</string>
+    <string name="title_activity_login">登录</string>
+    <string name="nav_header_title">个人中心</string>
+    <string name="nav_header_subtitle">个人资料待完善</string>
+    <!--/left Slide-->
+
+    <!--首页面-->
+    <string name="press_to_exit">请再按一次退出本程序</string>
+    <string name="home_grid_item_course_message">课程消息</string>
+    <!--/首页面-->
+
+    <!--首页-->
+    <string name="default_empty_message">该页面没有内容哦!</string>
+    <!--最近签到-->
+    <string name="home_no_recent_sign">你最近没有新的签到哦!</string>
+    <!--最近签到-->
+    <!--快速签到-->
+    <string name="no_course_to_select">你还没有创建课程</string>
+    <string name="quick_sign_fragment_text">选择一门课程,创建签到</string>
+    <string name="alert_select_a_course">选择课程</string>
+    <string name="show_all_course">选择课程</string>
+    <!--快速签到-->
+    <!--课程管理-->
+    <string name="main_no_course_list">你还没有创建课程</string>
+    <!--/课程管理-->
+    <!--学生管理-->
+    <string name="no_students_massage">当前未找到学生添加课程的请求</string>
+    <string name="request_to_join_your_course">请求加入课程</string>
+    <string name="action_accept">同意</string>
+    <string name="action_refuse">拒绝</string>
+    <string name="student_action_accept_ack">同意添加请求</string>
+    <string name="student_action_accept_ack_message">确定添加该学生进入该课程?</string>
+    <string name="student_action_refuse_ack">拒绝添加请求</string>
+    <string name="student_action_refuse_ack_message">确定拒绝该学生加入该课程?</string>
+    <string name="action_accept_fail">添加操作执行失败</string>
+    <string name="action_accept_success">加入操作成功</string>
+    <string name="action_refuse_fail">拒绝操作执行失败</string>
+    <string name="action_refuse_success">拒绝成功</string>
+    <!--/学生管理-->
+    <!--首页-->
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">教师工号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="error_invalid_password">密码不能为空!</string>
+    <string name="error_incorrect_password_or_username">用户名或密码错误！</string>
+    <string name="error_field_required">该项不能为空!</string>
+    <string name="login_success">登录成功!</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--alertDialog-->
+    <string name="alert_cancel">取消</string>
+    <string name="alert_sure">确定</string>
+    <!--/alertDialog-->
+    <!---address-->
+    <string name="address_login_url">%s/user/login</string>
+    <string name="address_sign_recent">%s/sign/recent</string>
+    <string name="address_course_list">%s/course/list</string>
+    <string name="address_course_detail">%s/course/view</string>
+    <string name="address_student_message">%s/student/messages</string>
+    <string name="address_student_accept">%s/student/accept</string>
+    <string name="address_student_refuse">%s/student/refuse</string>
+    <string name="address_student_info">%s/student/info</string>
+    <string name="address_sign_list">%s/sign/list</string>
+    <string name="address_sign_create">%s/sign/create</string>
+    <string name="address_sign_sign">%s/sign/sign</string>
+    <string name="address_sign_verify">%s/sign/verify</string>
+    <string name="title_activity_debug_settings">DebugSettings</string>
+    <!---address-->
+
+    <!--网络错误-->
+    <string name="network_error_bad_required">网络请求错误</string>
+    <string name="no_network">当前网络不可用,请稍后重试</string>
+    <!--网络错误-->
+
+    <!-- Example General settings -->
+    <string name="base_host_address_setting_dialog_title">设置服务器根地址</string>
+    <string name="base_host_address_setting_title">服务器根地址</string>
+    <string name="base_host_address_setting_summary">点击设置</string>
+    <string name="base_host_address_default_value">"http://127.0.0.1/</string>
+    <!-- Example General settings -->
+
+    <!--账号相关-->
+    <string name="logout_account_ack">退出账号</string>
+    <string name="logout_account_ack_message">你确定退出该账号?</string>
+    <string name="login_out_date">登录已过期,请重新登陆?</string>
+    <!--/账号相关-->
+
+    <string name="title_activity_account">个人中心</string>
+    <string name="large_text">"Material is the metaphor.\n\n"</string>
+
+    <!--学生信息-->
+    <string name="title_activity_student_info">学生信息</string>
+    <string name="error_to_load_student_info">加载学生信息错误</string>
+    <string name="error_not_student_found">未找到该学生的相关信息</string>
+    <string name="title_activity_course_detail">课程详情</string>
+    <string name="student_info_label_name">姓名:%s</string>
+    <string name="student_info_label_s_no">学号:%s</string>
+    <string name="student_info_label_sex">性别:%s</string>
+    <string name="student_info_label_tel">电话:%s</string>
+    <string name="student_info_label_email">邮箱:%s</string>
+    <string name="student_info_label_major">专业:%s</string>
+    <string name="student_info_label_school">学院:%s</string>
+    <!--/学生信息-->
+
+    <!--课程详情-->
+    <string name="error_to_load_course_info">加载课程信息失败</string>
+    <string name="course_detail_course_name">课程名称:%s</string>
+    <string name="course_detail_describe">课程描叙:%s</string>
+    <string name="course_detail_student_num">学生数目:%s</string>
+    <string name="course_detail_remark">课程备注:%s</string>
+    <string name="course_detail_create_time">创建时间:%s</string>
+    <string name="course_detail_update_time">更新时间:%s</string>
+    <string name="btn_create_new_sign">创建签到</string>
+    <string name="btn_history_sign">历史签到</string>
+    <!--课程详情-->
+    <!--课程签到列表-->
+    <string name="title_activity_sign_list">签到列表</string>
+    <string name="sign_list_title_format">%s的签到列表</string>
+    <string name="error_to_load_sign_list">加载签到列表失败</string>
+    <string name="error_not_sign_list_found">当前课程还没有创建签到</string>
+    <string name="sign_list_item_label_create_time">创建时间:%s</string>
+    <string name="sign_list_item_label_start_time">开始时间:%s</string>
+    <string name="sign_list_item_label_end_time">结束时间:%s</string>
+    <!--课程签到列表-->
+
+    <!--课程签到-->
+    <string name="title_activity_sign">课程签到</string>
+    <string name="error_to_load_sign_sign">加载签到学生列表失败</string>
+    <string name="error_to_no_sign_data">未找到相关签到的数据</string>
+    <string name="title_activity_take_photo">上传照片</string>
+    <!--课程签到-->
+
+    <!--人脸图查看-->
+    <string name="submit_face">上传</string>
+    <string name="error_submit_photo">上传照片出错</string>
+    <string name="error_photo_not_found">未找到相关照片</string>
+    <string name="error_loading">加载错误..</string>
+    <string name="success_sign">签到成功</string>
+    <string name="fail_to_sign">签到失败</string>
+    <string name="error_sign">签到失败</string>
+    <string name="has_signed">该学生已经签到过了</string>
+    <string name="title_activity_sign_create">创建签到</string>
+    <!--人脸图查看-->
+
+    <!--创建签到-->
+    <string name="sign_create_label_start_time">开始时间</string>
+    <string name="sign_create_label_end_time">结束时间</string>
+    <string name="error_smaller">结束时间不应该早于开始时间</string>
+    <string name="error_submit_request">创建签到提交请求错误</string>
+    <string name="error_submit_sign">创建签到失败</string>
+    <string name="sign_create_success">创建签到成功</string>
+    <string name="sign_create_remark">备注</string>
+    <string name="sign_create_submit">提交</string>
+    <!--创建签到-->
+</resources>

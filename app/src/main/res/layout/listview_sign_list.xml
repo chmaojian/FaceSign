@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/sign_list_item_padding"
+    android:paddingBottom="@dimen/sign_list_item_padding"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/score_color_image_padding">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sign_list_bg_image"
+            android:layout_width="52dp"
+            android:layout_height="52dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/sign_list_sign_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/sign_list_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sign_list_create_time"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/sign_list_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_d" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/sign_list_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_d" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

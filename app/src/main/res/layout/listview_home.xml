@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/color_card_margin_vertical"
+    android:paddingLeft="@dimen/color_card_margin_horizontal"
+    android:paddingRight="@dimen/color_card_margin_horizontal"
+    android:paddingTop="@dimen/color_card_margin_vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="@dimen/color_card_corner_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/home_item_icon"
+                android:layout_width="@dimen/file_share_icon_width"
+                android:layout_height="@dimen/file_share_icon_width"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginStart="4dp"
+                android:src="@drawable/ic_recent_sign" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/home_item_icon"
+                android:layout_toRightOf="@+id/home_item_icon"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/color_card_padding_vertical"
+                android:paddingLeft="@dimen/color_card_padding_horizontal"
+                android:paddingRight="@dimen/color_card_padding_horizontal"
+                android:paddingTop="@dimen/color_card_padding_vertical">
+
+                <TextView
+                    android:id="@+id/home_course_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_sign_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_d"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/home_sign_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_d"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

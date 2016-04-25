@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="green">#3CB371</color>
+    <color name="gray_d">#707070</color>
+    <color name="purple">#6633CC</color>
+    <color name="blue">#3392E1</color>
+
+    <!--Main Activity-->
+    <color name="press_background">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_item_selected">#ddd</color>
+    <color name="listview_transparent_background">#EEEEEE</color>
+    <color name="default_background">#EEEEEE</color>
+    <!--Main Activity-->
+
+    <!--debug settings color-->
+    <color name="preference_list_item_press">#E7E7E7</color>
+    <color name="preference_item_title_color">#000000</color>
+    <color name="preference_item_summary_color">#AAAAAA</color>
+    <!--/debug settings color-->
+
+    <!--sign list-->
+
+    <!--sign list-->
+</resources>
